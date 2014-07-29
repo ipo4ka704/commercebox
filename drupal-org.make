@@ -95,7 +95,7 @@ projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][subdir] = "contrib"
 projects[link][version] = 1.2
 projects[link][subdir] = "contrib"
-projects[menu_minipanels][version] = 7.x-2.0-beta1
+projects[menu_minipanels][version] = 2.0-beta1
 projects[menu_minipanels][subdir] = "contrib"
 projects[commerce][patch][] = "https://drupal.org/files/undefined-index-amount-1819318-1.patch"
 
