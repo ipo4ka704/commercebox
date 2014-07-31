@@ -5,8 +5,7 @@
  * Menu callback function.
  */
 function commercebox_payment_settings_callback() {
-  drupal_goto('/admin/commerce/config/payment-methods');
-  /*$output['paypal'] = array(
+  $output['paypal'] = array(
     '#type' => 'fieldset',
     '#title' => 'Paypal',
     '#collapsible' => TRUE,
@@ -46,13 +45,13 @@ function commercebox_payment_settings_callback() {
     );
   }
   if (!empty($methods['commerce_robokassa'])) {
-    $items = drupal_get_form('commerce_robokassa_settings_form');
+    $items = drupal_get_form('commercebox_payment_settings_robokassa_settings_form');
     $output['robokassa']['payment'] = array(
       '#markup' => drupal_render($items),
     );
   }
 
-  return $output;*/
+  return $output;
 }
 
 /**
