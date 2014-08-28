@@ -96,6 +96,7 @@ projects[link][subdir] = "contrib"
 projects[menu_minipanels][version] = 2.0-beta1
 projects[menu_minipanels][subdir] = "contrib"
 projects[commerce][patch][] = "https://drupal.org/files/undefined-index-amount-1819318-1.patch"
+projects[ctools][patch][]   =  "https://www.drupal.org/files/issues/ctools-combined_patch_from_n2195211-15_and_n2195471-29--n2195471-47.patch"
 
 
 
